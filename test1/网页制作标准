@@ -1,0 +1,14 @@
+web标准：w3c标准
+    1.标签嵌套：块级元素可以包含行级和块级元素
+    2。块级元素不能放<p>里面
+    3.有几个特殊块级元素只能包含行级元素不能包含块级元素：
+        h1,h2,h3,h4,h5,h6,p,dt
+    4.块级元素和块级元素并列，行级和行级并列
+
+
+    项目开发时，文件或目录名不能出现汉字和空格之类的其他符号，文件和目录名一般以字母
+    或者下划线开头_,其后可以出现数字，字母，下划线。
+    例如：目录名：taobao   image/img/pic  video music file web/sites....
+        文件名：index.html（首页）  product.html（产品列表） order.html（订单页）
+        news.html（新闻列表） news_details.html（新闻详情页） pro_details.html（产品详情页）
+        contact.html（联系我们）

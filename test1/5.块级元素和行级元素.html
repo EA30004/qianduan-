@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块级元素和行级元素</title>
+</head>
+<body>
+    <!--块级元素：（相当于执行了display:block操作）
+        肚占一行，
+        宽度和高度是可控制的，如果没有设置其宽度，将默认铺满整行
+        块级元素可以包含块级和行级元素-->
+    <!--行级元素：（相当于执行了display:inline操作）
+        不会独占一行，与相邻的行级元素占同一行，直到行占满，会自动掉到下一行
+        宽度和高度不可控
+        其中只有包含行级元素-->
+    <div>div</div>
+    <p>p</p>
+    <p style="width: 300px;height: 30px;background: aqua;color: indianred">p</p>
+
+    <strong>strong</strong>
+    <span>span</span>
+    <span style="width: 300px;height: 30px;background: aqua;color: indianred">span</span>
+
+    <br>
+    <!--块级标签转行级标签-->
+    <p style="width: 300px;height: 30px;background: aqua;color: indianred; display:inline" >块级变行级</p>
+    <br><br><br>
+    <span style="width: 300px;height: 30px;background: deepskyblue;color: indianred;display: block">行级变块级</span>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!--按！加Tab或者HTML:5加Tab会自动生成文档结构-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--7.8两行，移动端开发设置-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+</head>
+<body>
+    <!--1.div标签用于布局，没有具体含义，用于分层-->
+    <div>
+        abc
+        <div>deq</div>
+    </div>
+
+    <!--2.hx:标题，从一级到六级，一级最大，六级最小，会自动加粗，有默认字号-->
+    <h1>前端基础学习</h1>
+    <h2>JAVA开发</h2>
+    <h6>小程序开发</h6>
+
+<!-- 3.p标签，表示段落，相当于回车--><!--在p标签内的文字回车无意义不会将文本内回车保留-->
+    <p>（法新社日內瓦21日電） 聯合國（UN）今天表示，非洲剛果民主共和國（簡稱民主剛果）東部爆發暴力事件，幾個月來己迫使逾10萬人逃往鄰國。 法新社報導，聯合國難民事務高級專員公署（UNHCR）指出：「不到3個月內，逃往鄰國的（民主）剛果人數已激增至10萬多人」。</p>
+    <p>（法新社日內瓦21日電） 聯合國（UN）今天表示，非洲剛果民主共和國（簡稱民主剛果）東部爆發暴力事件，幾個月來己迫使逾10萬人逃往鄰國。
+        法新社報導，聯合國難民事務高級專員公署（UNHCR）指出：「不到3個月內，逃往鄰國的（民主）剛果人數已激增至10萬多人」。</p>
+
+    <!--4.br,单标签，简单生成一个换行符-->
+    <p>（法新社日內瓦21日電） 聯合國（UN）今天表示，非洲剛果民主共和國（簡稱民主剛果）東部爆發暴力事件，幾個月來己迫使逾10萬人逃往鄰國。<br/>
+        法新社報導，聯合國難民事務高級專員公署（UNHCR）指出：「不到3個月內，逃往鄰國的（民主）剛果人數已激增至10萬多人」。<br/>
+    </p>
+
+    <!--5，hr，单标签，生成一条水平线，主要起一个装饰作用-->
+    <p>（法新社日內瓦21日電） 聯合國（UN）今天表示，非洲剛果民主共和國（簡稱民主剛果）東部爆發暴力事件，幾個月來己迫使逾10萬人逃往鄰國。
+    <hr/>
+    <hr width="60%" align="center" color="yellow" height="9px">
+    <!--为了确保兼容性并遵循现代网页设计，推荐使用 CSS 来控制这些样式，像这样：
+    <hr style="width: 60%; height: 9px; background-color: yellow; border: none; margin: 0 auto;">
+    这里的 style 属性使用了内联 CSS 来实现相同的效果：
+    width: 60%: 控制宽度。
+    height: 9px: 控制线的高度。
+    background-color: yellow: 设置黄色背景
+    border: none: 去除默认的边框。
+    margin: 0 auto: 使水平线居中对齐。
+    这样写法更加符合现代网页开发的标准。-->
+        法新社報導，聯合國難民事務高級專員公署（UNHCR）指出：「不到3個月內，逃往鄰國的（民主）剛果人數已激增至10萬多人」。</p>
+
+    <!--6.a标签：实现一个链接跳转,target:_blank/_self/_parent/_top-->
+    <a href="https://www.bing.com/"title="bing"target="">bing搜索</a>
+    <a href="document.html" target="_blank">Document</a>
+    <a href="document.html" target="_self">Document</a>
+
+    <!--7.img: 单标签，用来加载外部图片图像，src：用来设定加载的图片或图像的路径，alt:当图片加载不成功时显示其内容-->
+    <img src="https://th.bing.com/th?id=ORMS.4cd60336fc81fcbf281ad3a1599056f5&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0" title="girl" alt="图片"/>
+    <img src="https://th.bing.coRMS.4cd60336fc81fcbf281ad3a159pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0" alt="图片不存在"/>
+
+    <!--8，span：作用与div一样，用来布局，但div单独占一行，span不会,span标签用于行内布局，无含义-->
+    <div>div1</div>
+    <div>div2</div>
+
+    <span>span1</span>
+    <span>span2</span>
+
+    <br/><br/><br/><br/><br/>
+
+    <!--9.ul/ol:列表，前者无序，后者有序，列表内容都是li标签。-->
+    <!--输入  ul>li{li$}*3 按Tab-->
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <!--webstorm 复制选中快捷键：ctrl+D-->
+    <ol>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ol>
+<!--多做注释ctrl+shift+/，在大型代码极其有用-->
+<!--
+浏览器不解析注释内容
+-->
+</body>
+</html>

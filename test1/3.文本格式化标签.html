@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本格式化标签</title>
+</head>
+<body>
+    <!--文本格式化标签：通过标签来美化文本外观-->
+    <!--1.b和strong:都有加粗作用，且都为行级标签（不会自动换行），但是strong又有强调作用。注意，强调主要用于SEO时，便于提取对应的关键字。-->
+    <b>加粗</b>
+    <strong>加粗且强调</strong>
+
+    <!--2.i和em：使文字倾斜，em具有强调作用。-->
+    <i>文字倾斜</i>
+    <em>文字倾斜并且强调</em>
+
+    <!--3.pre预格式化文本，保留文本换行和空格及其宽度（使用较少）-->
+    <pre>预格式化文本
+        外语 系
+        外语
+        系 系      系
+    </pre>
+
+    <!--4.small和big：使文字小一号和大一号，行级标签，big在html5中淘汰了-->
+    <small>我小一号</small><!--浏览器最小支持12px的字，要想显示要其他处理-->
+    <big>我大一号</big><!--少用，在开发中尽量不要用淘汰标签-->
+
+    <!--5.sub和sup：设置文本的上网下标，用来调整正常显示的基线，且文字自动小一号-->
+    <p>X1+X2=Y</p>
+    <p>X<sub>1</sub>+X<sub>2</sub>=Y</p>
+    <p>X<sup>1</sup>+X<sup>2</sup>=Y</p>
+        <!--这些都是布局，不包含数学计算逻辑-->
+    <div>X1+X2=Y</div>
+    <div>X<sub>1</sub>+X<sub>2</sub>=Y</div>
+    <div>X<sup>1</sup>+X<sup>2</sup>=Y</div>
+
+</body>
+</html>
