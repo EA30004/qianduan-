@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>完整表格</title>
+</head>
+<body>
+<!--table[border=1 width=600 align=center]>caption{学生信息表}+thead>tr>th*4-->
+<table border="1" width="600" align="center">
+    <caption>学生信息表</caption>
+    <thead>
+    <tr>
+        <th>学号</th><!--th会自动加粗和居中-->
+        <th>姓名</th>
+        <td>家庭住址</td>
+        <td>备注</td>
+    </tr>
+    </thead>
+</table>
+<!--    table[border=1 width=600 align=center]>caption{学生信息表}+thead>tr>th*4)=(tbody>tr*3>td*4)=(tfoot>tr>td[colspan=1])-->
+<!--table-->
+table[border=1 width=600 align=center]>caption{学生信息表}+thead>tr>th*4)=(tbody>tr*3>td*4)=
+<tfoot>
+<tr>
+    <td colspan="1"></td>
+</tr>
+</tfoot>
+</body>
+</html>
